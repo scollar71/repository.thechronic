@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.nbcsnliveextra" name="NBC Sports Live Extra" version="2018.2.13" provider-name="eracknaphobia">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.adobepass" version="2017.3.20"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="nbcsn.py">
+        <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Watch NBCSN Live Extra</summary>
+    <description lang="en">NBC Sports Live Extra is a service that allows you to watch NBC Sports coverage of live events from NBC and NBCSports Network</description>
+    <disclaimer lang="en"></disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=207159</forum>
+  </extension>
+</addon>
+
 <addon id="plugin.program.thechronicwizard" name="The Chronic Wizard" version="0.1.0" provider-name="scollar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,6 +34,22 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">The Chronic Wizard</summary>
     <description lang="en">The Chronic Wizard allows you to get access to the latest Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.doityourself" name="Do It Yourself" version="1.0" provider-name="somethingelsepromotions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.1.19"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Do It Yourself</summary>
+    <description lang="en">Helpful and informative "Do It Yourself" videos.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -64,66 +103,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.nbcsnliveextra" name="NBC Sports Live Extra" version="2018.2.13" provider-name="eracknaphobia">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.adobepass" version="2017.3.20"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="nbcsn.py">
-        <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Watch NBCSN Live Extra</summary>
-    <description lang="en">NBC Sports Live Extra is a service that allows you to watch NBC Sports coverage of live events from NBC and NBCSports Network</description>
-    <disclaimer lang="en"></disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=207159</forum>
-  </extension>
-</addon>
-
-<addon id="plugin.video.nugporn"
-	name="NugPorn"
-	version="1.0.8"
-	provider-name="tvaddons.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">NugPorn</summary>
-    <description lang="en">Fine Strain Showcases and Medical Marijuana Culture Served Regularly!</description>
-    <platform>all</platform>
-    <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
-    <website>http://www.tvaddons.ag/</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.420247" name="420 24/7" version="1.0" provider-name="somethingelesepromotions">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.1.19"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">420 24/7</summary>
-    <description lang="en">[COLOR green][B]A collection of YouTube Channels regarding medical marijuana.[/B][/COLOR] [COLOR red][B]Please obey all local laws and ordinances.[/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.420everday" name="420 Everyday" version="0.0.1" provider-name="scollar">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -145,7 +124,28 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.doityourself" name="Do It Yourself" version="1.0" provider-name="somethingelsepromotions">
+<addon id="plugin.video.thechronic" name="The Chronic" version="0.0.1" provider-name="Scollar">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio image video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">This is a place for my stuff</summary>
+		<description lang="en">For your 420 viewing pleasure</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.420247" name="420 24/7" version="1.0" provider-name="somethingelesepromotions">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -155,9 +155,30 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Do It Yourself</summary>
-    <description lang="en">Helpful and informative "Do It Yourself" videos.</description>
+    <summary lang="en">420 24/7</summary>
+    <description lang="en">[COLOR green][B]A collection of YouTube Channels regarding medical marijuana.[/B][/COLOR] [COLOR red][B]Please obey all local laws and ordinances.[/B][/COLOR]</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.nugporn"
+	name="NugPorn"
+	version="1.0.8"
+	provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NugPorn</summary>
+    <description lang="en">Fine Strain Showcases and Medical Marijuana Culture Served Regularly!</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
+    <website>http://www.tvaddons.ag/</website>
   </extension>
 </addon>
 </addons>
