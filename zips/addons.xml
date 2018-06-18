@@ -103,7 +103,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.strainshowcase" name="Strain Showcase" version="0.0.1" provider-name="scollar">
+<addon id="plugin.video.strainshowcase" name="Strain Showcase" version="0.0.2" provider-name="scollar">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
