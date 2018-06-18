@@ -127,7 +127,7 @@ def Main_Menu():
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
         name="CT Weed Review", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="https://1drv.ms/u/s!Au5s4l5zTHtVplg2xlc4cDoV5b6O")
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/CTREVIEW_zps8ec95pdl.png~original")
 #----------------------------------------------------------------
 # A basic OK Dialog
 @route(mode='koding_settings')
