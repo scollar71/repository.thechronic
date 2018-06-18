@@ -66,7 +66,7 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
 YOUTUBE_CHANNEL_ID_2 = "PLnDj4GODT_QpaemQB4395I9wRwCnZvx6x"
-YOUTUBE_CHANNEL_ID_3 = "PLfb8E7lARImvzrAq0O6jyQcstw7aKZvLq"
+YOUTUBE_CHANNEL_ID_3 = "PLA4E63FA1CB3A3516"
 YOUTUBE_CHANNEL_ID_4 = "PLDl8FdxnLvd3T7BultA5Fi6EiohqRHWAg"
 YOUTUBE_CHANNEL_ID_5 = "UC91IWahKnEmD7RMIrr-301A"
 
@@ -98,7 +98,7 @@ def Main_Menu():
     if debug == 'true':
         Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
     else:
-        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
+#        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at facebook.com and I'll be happy to look into it for you.\"}"
@@ -117,8 +117,8 @@ def Main_Menu():
         icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
-        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Gil's Showcase", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/ba29e804-201b-4681-b823-8b1354bc3be3_zpszwul84rl.png~original")
 
     Add_Dir( 
         name="Gil's Weed Adventures", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
