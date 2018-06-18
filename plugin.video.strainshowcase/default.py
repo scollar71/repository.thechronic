@@ -67,7 +67,7 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
 YOUTUBE_CHANNEL_ID_2 = "PLnDj4GODT_QpaemQB4395I9wRwCnZvx6x"
 YOUTUBE_CHANNEL_ID_3 = "PLfb8E7lARImvzrAq0O6jyQcstw7aKZvLq"
-YOUTUBE_CHANNEL_ID_4 = "PLlJDPmb6OexrDnAFNBNJez8zRe4EECDZY"
+YOUTUBE_CHANNEL_ID_4 = "PLDl8FdxnLvd3T7BultA5Fi6EiohqRHWAg"
 YOUTUBE_CHANNEL_ID_5 = "UC91IWahKnEmD7RMIrr-301A"
 
 #----------------------------------------------------------------
@@ -121,8 +121,8 @@ def Main_Menu():
         icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
-        name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Gil's Weed Adventures", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/wmicon_zpschrzbsod.png~original")
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
