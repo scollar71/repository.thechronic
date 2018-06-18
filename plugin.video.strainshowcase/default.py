@@ -98,7 +98,7 @@ def Main_Menu():
     if debug == 'true':
         Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
     else:
-#        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
+        Add_Dir ( '[COLOR=lime]Dedicated to the legalization[/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at facebook.com and I'll be happy to look into it for you.\"}"
