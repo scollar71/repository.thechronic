@@ -103,16 +103,16 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.strainshowcase" name="Strain Showcase" version="0.0.3" provider-name="scollar">
+<addon id="plugin.video.strainshowcase" name="Strain Showcase" version="0.1.1" provider-name="scollar">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>image video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Explore the beautiful strains of amazing plant</summary>
+		<summary lang="en">Explore the beautiful strains of this amazing plant</summary>
 		<description lang="en">Dedicated to the legalization of this 8th wonder of the world</description>
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support</forum>

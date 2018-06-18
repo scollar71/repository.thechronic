@@ -122,7 +122,7 @@ def Main_Menu():
 
     Add_Dir( 
         name="Gil's Weed Adventures", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="http://i1200.photobucket.com/albums/bb335/scollar2/wmicon_zpschrzbsod.png~original")
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/ba29e804-201b-4681-b823-8b1354bc3be3_zpszwul84rl.png~original")
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
