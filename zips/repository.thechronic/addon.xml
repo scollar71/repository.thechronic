@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.thechronic" name="The Chronic Repository" version="0.1.1" provider-name="scollar">
+	<extension point="xbmc.addon.repository" name="The Chronic Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/scollar71/repository.thechronic/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/scollar71/repository.thechronic/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/scollar71/repository.thechronic/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">From Boob's to Bud's and so much more</summary>
+		<description lang="en">Fucking Amazing!</description>
+		<genre>adult,documentary,livetv,movies,music,skin,sports,wizard,usa</genre>
+	</extension>
+</addon>

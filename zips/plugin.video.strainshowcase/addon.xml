@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.strainshowcase" name="[COLOR=lime]Strain Showcase[/COLOR]" version="0.1.2" provider-name="scollar">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>image video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Strain Showcase</summary>
+		<description lang="en">Explore the beautiful strains of this AMAZING flower, dedicated to the legalization of this 8th wonder of the world</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
