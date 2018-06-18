@@ -101,7 +101,7 @@ def Main_Menu():
         Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
+    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at facebook.com and I'll be happy to look into it for you.\"}"
 
     Add_Dir(
         name="Support/Suggestions", url=my_message, mode="simple_dialog", folder=False,
@@ -126,7 +126,7 @@ def Main_Menu():
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
-        name="CT Dispensary", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
+        name="CT Weed Review", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="http://i1200.photobucket.com/albums/bb335/scollar2/6005435b-cac5-4f32-b12f-58267712014b_zpshot1msgz.jpg")
 #----------------------------------------------------------------
 # A basic OK Dialog
