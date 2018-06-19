@@ -23,9 +23,9 @@
     months if not years on the code so really it's the very least you can do if
     you choose to use their work as a base for your own.
 """
-# License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
-# Addon: My YouTube Add-on
-# Author: Add your name here
+License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
+Addon: Strain Showcase
+Author: scollar2
 
 #----------------------------------------------------------------
 
@@ -64,8 +64,8 @@ BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
-YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
-YOUTUBE_CHANNEL_ID_2 = "PLnDj4GODT_QpaemQB4395I9wRwCnZvx6x"
+# YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
+# YOUTUBE_CHANNEL_ID_2 = "PLnDj4GODT_QpaemQB4395I9wRwCnZvx6x"
 YOUTUBE_CHANNEL_ID_3 = "PLA4E63FA1CB3A3516"
 YOUTUBE_CHANNEL_ID_4 = "PLDl8FdxnLvd3T7BultA5Fi6EiohqRHWAg"
 YOUTUBE_CHANNEL_ID_5 = "UC91IWahKnEmD7RMIrr-301A"
@@ -108,13 +108,13 @@ def Main_Menu():
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-    Add_Dir( 
-        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
+#   Add_Dir( 
+#        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+#        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
 
     Add_Dir( 
-        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+#        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+#        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
         name="Gil's Showcase", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
