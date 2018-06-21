@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.strainshowcase" name="[COLOR=lime]Strain Showcase[/COLOR]" version="0.2.0" provider-name="scollar">
+<addon id="plugin.video.strainshowcase" name="[COLOR=lime]Strain Showcase[/COLOR]" version="0.2.1" provider-name="scollar">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
