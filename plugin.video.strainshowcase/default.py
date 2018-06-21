@@ -108,13 +108,13 @@ def Main_Menu():
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-#   Add_Dir( 
-#        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-#        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
+   Add_Dir( 
+        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
 
     Add_Dir( 
-#        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-#        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
         name="Gil's Showcase", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
