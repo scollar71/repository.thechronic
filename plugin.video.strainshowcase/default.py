@@ -64,7 +64,7 @@ BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
-# YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
+ YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
 YOUTUBE_CHANNEL_ID_2 = "PLtLs474TOaY_1fcl_vCIAvDitzhFd_njJ"
 YOUTUBE_CHANNEL_ID_3 = "PLA4E63FA1CB3A3516"
 YOUTUBE_CHANNEL_ID_4 = "PLDl8FdxnLvd3T7BultA5Fi6EiohqRHWAg"
