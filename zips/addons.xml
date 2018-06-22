@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.thechronicwizard" name="The Chronic Wizard" version="0.1.0" provider-name="scollar">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">The Chronic Wizard</summary>
-    <description lang="en">The Chronic Wizard allows you to get access to the latest Custom Builds.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.thechronic" name="The Chronic Repository" version="0.1.1" provider-name="scollar">
 	<extension point="xbmc.addon.repository" name="The Chronic Repository">
 		<dir>
@@ -33,25 +18,20 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.strainshowcase" name="[COLOR=lime]Strain Showcase[/COLOR]" version="0.2.1" provider-name="scollar">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>image video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Strain Showcase</summary>
-		<description lang="en">Explore the beautiful strains of this AMAZING flower, dedicated to the legalization of this 8th wonder of the world</description>
-		<platform>all</platform>
-		<forum>http://www.noobsandnerds.com/support</forum>
-		<website>www.noobsandnerds.com</website>
-		<news></news>
-		<genre></genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
+<addon id="plugin.video.420247" name="420 24/7" version="1.0" provider-name="somethingelesepromotions">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.1.19"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">420 24/7</summary>
+    <description lang="en">[COLOR green][B]A collection of YouTube Channels regarding medical marijuana.[/B][/COLOR] [COLOR red][B]Please obey all local laws and ordinances.[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.420everday" name="420 Everyday" version="0.0.1" provider-name="scollar">
@@ -75,6 +55,21 @@
 	</extension>
 </addon>
 
+<addon id="plugin.program.thechronicwizard" name="The Chronic Wizard" version="0.1.0" provider-name="scollar">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Chronic Wizard</summary>
+    <description lang="en">The Chronic Wizard allows you to get access to the latest Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.thechronic" name="The Chronic" version="0.1.0" provider-name="Scollar">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -96,20 +91,25 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.420247" name="420 24/7" version="1.0" provider-name="somethingelesepromotions">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.1.19"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">420 24/7</summary>
-    <description lang="en">[COLOR green][B]A collection of YouTube Channels regarding medical marijuana.[/B][/COLOR] [COLOR red][B]Please obey all local laws and ordinances.[/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
+<addon id="plugin.video.strainshowcase" name="[COLOR=lime]Strain Showcase[/COLOR]" version="0.2.1" provider-name="scollar">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>image video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Strain Showcase</summary>
+		<description lang="en">Explore the beautiful strains of this AMAZING flower, dedicated to the legalization of this 8th wonder of the world</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
 </addon>
 
 <addon id="plugin.video.nugporn"

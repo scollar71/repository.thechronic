@@ -23,9 +23,9 @@
     months if not years on the code so really it's the very least you can do if
     you choose to use their work as a base for your own.
 """
-#   License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
-#   Addon: Strain Showcase
-#   Author: scollar
+# License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
+# Addon: My YouTube Add-on
+# Author: Add your name here
 
 #----------------------------------------------------------------
 
@@ -64,11 +64,11 @@ BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
- YOUTUBE_CHANNEL_ID_1 = "PLRjomIk8urmEj_1boB4qG-sJfLLfbJqq2"
-YOUTUBE_CHANNEL_ID_2 = "PLtLs474TOaY_1fcl_vCIAvDitzhFd_njJ"
+YOUTUBE_CHANNEL_ID_1 = "UCUD8ccxOsS3MJcdA4dyoTiw"
+YOUTUBE_CHANNEL_ID_2 = "PLwLI7v35KbYKR8On_usL9pICCzgBF1kBY"
 YOUTUBE_CHANNEL_ID_3 = "PLA4E63FA1CB3A3516"
 YOUTUBE_CHANNEL_ID_4 = "PLDl8FdxnLvd3T7BultA5Fi6EiohqRHWAg"
-YOUTUBE_CHANNEL_ID_5 = "PLtLs474TOaY_1fcl_vCIAvDitzhFd_njJ"
+YOUTUBE_CHANNEL_ID_5 = "UC91IWahKnEmD7RMIrr-301A"
 
 #----------------------------------------------------------------
 
@@ -98,7 +98,7 @@ def Main_Menu():
     if debug == 'true':
         Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
     else:
-        Add_Dir ( '[COLOR=lime]Dedicated to the legalization[/COLOR]', '', "koding_settings", False, '', '', '' )
+        Add_Dir ( '[COLOR=lime]Thank You For Visiting[/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at facebook.com and I'll be happy to look into it for you.\"}"
@@ -108,20 +108,20 @@ def Main_Menu():
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-   Add_Dir( 
-        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
+    Add_Dir( 
+        name="Zob's Glass", url=BASE2+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/Screenshot-2018-6-22%20zobs%20glass%20icon%20-%20Google%20Search_zpscz5693mn.png~original")
 
     Add_Dir( 
-        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Live In the Garden", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/mendoicon_zpsmrbsswbp.png~original")
 
     Add_Dir( 
         name="Gil's Showcase", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-        icon="http://i1200.photobucket.com/albums/bb335/scollar2/ba29e804-201b-4681-b823-8b1354bc3be3_zpszwul84rl.png~original")
+        icon="http://i1200.photobucket.com/albums/bb335/scollar2/wmicon2_zpsx1sv0lnr.png~original")
 
     Add_Dir( 
-        name="Gil's Weed Adventures", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        name="Gil's Adventure's", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="http://i1200.photobucket.com/albums/bb335/scollar2/ba29e804-201b-4681-b823-8b1354bc3be3_zpszwul84rl.png~original")
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
