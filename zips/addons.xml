@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.thechronicwizard" name="The Chronic Wizard" version="0.1.1" provider-name="scollar">
+<addon id="plugin.program.thechronicwizard" name="The Chronic Wizard" version="0.1.2" provider-name="scollar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
