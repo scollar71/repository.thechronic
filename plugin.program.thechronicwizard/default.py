@@ -300,7 +300,7 @@ def viewBuild(name):
 	if not WORKINGURL == True:
 		addFile('Url for txt file not valid', '', themeit=THEME3)
 		addFile('%s' % WORKINGURL, '', themeit=THEME3)
-		return
+	return
 	if wiz.checkBuild(name, 'version') == False: 
 		addFile('Error reading the txt file.', '', themeit=THEME3)
 		addFile('%s was not found in the builds list.' % name, '', themeit=THEME3)
