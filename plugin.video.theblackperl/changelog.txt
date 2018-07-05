@@ -1,0 +1,3 @@
+v1.0
+    - Release 0.1.0 initial release
+    - based on bob 1.0.1
