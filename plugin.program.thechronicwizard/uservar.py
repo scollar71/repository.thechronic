@@ -7,7 +7,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = ''
 EXCLUDES       = [ADDON_ID, 'repository.thechronic']
 # Text File with build info in it.
-BUILDFILE      = 'https://www.dropbox.com/s/3h8h2zbi63ud52j/wizard.txt?dl=1'
+BUILDFILE      = 'https://www.dropbox.com/s/jtaa55byrt5p0z9/wizard.txt?dl=1'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
